@@ -27,4 +27,4 @@ Repo: https://github.com/NickGrant89/taste-the-globe
 
 Send this link (public globe): **https://nickgrant89.github.io/taste-the-globe/**
 
-That URL is the illustrated atlas. Sign-in and Share food still need `npm run api` on this Mac.
+GitHub Pages is the illustrated atlas only. Cursor can also publish a public app from this folder — pick **Public** when you confirm so anyone with the link can open it. Sign-in and share use web handlers in `api/` (`GET` / `POST` / `PUT` / `PATCH` / `DELETE`). Accounts and pins persist in Postgres when `DATABASE_URL` is set, otherwise PGlite, otherwise a local JSON file. The host does not run Node `createServer`.

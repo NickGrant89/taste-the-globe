@@ -1,6 +1,7 @@
 node_modules
 dist
 data
+.pglite
 .DS_Store
 .env
 *.log
