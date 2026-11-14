@@ -15,6 +15,16 @@ npm run dev    # http://127.0.0.1:5173
 
 Sign in to pin food other people can see. Without the API, the globe and catalog still work on this device.
 
+## This folder
+
+This is the whole app. It is not part of magic-mirror. Open this folder as its own Cursor workspace:
+
+`/Users/Nick/Projects/taste-the-globe`
+
+Repo: https://github.com/NickGrant89/taste-the-globe
+
 ## Hosted
 
-GitHub Pages serves the globe (no shared accounts on that URL). Cursor can also publish a public app from this folder — pick **Public** when you confirm so anyone with the link can open it.
+Send this link (public globe): **https://nickgrant89.github.io/taste-the-globe/**
+
+That URL is the illustrated atlas. Sign-in and Share food still need `npm run api` on this Mac.
